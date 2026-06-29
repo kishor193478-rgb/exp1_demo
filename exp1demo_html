@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Project</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #f8f9fa;
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ffffff;
+            color: #0077cc;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #0077cc;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 119, 204, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🚀 Welcome to DevOps Automated Deployment Pipeline</h1>
+        <p>Build • Test • Deploy • Monitor</p>
+        <a href="#" class="btn">Explore Pipeline</a>
+    </div>
+
+</body>
+</html>
